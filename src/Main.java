@@ -79,36 +79,8 @@ public class Main {
         byte Weigth1Egg = 70;
         int Weigth4Egg = Weigth1Egg * 4;
         int WeigthBreakfast = Weigth5Banana + Weigth200Milk + Weigth2IceCream + Weigth4Egg;
-        int Breakfast = WeigthBreakfast * 1000;
-        System.out.println("Вес спортзавтрака для спортсмена " + totalClass + " классов, нужно " + totalWite + " банок белой краски и " + totalBrown + " банок коричневой краски");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        float BreakfastKg = WeigthBreakfast / 1000f;
+        System.out.println("Вес спортзавтрака для спортсмена составляет " + WeigthBreakfast + " гр или " + BreakfastKg + " кг");
 
 
 
