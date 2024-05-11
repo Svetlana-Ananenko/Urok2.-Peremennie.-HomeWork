@@ -82,7 +82,46 @@ public class Main {
         float BreakfastKg = WeigthBreakfast / 1000f;
         System.out.println("Вес спортзавтрака для спортсмена составляет " + WeigthBreakfast + " гр или " + BreakfastKg + " кг");
 
+        System.out.println("   Задача 7");
+        byte reset = 7;
+        double resetOneDay = 0.25;
+        double resetOneDayMax = 0.5;
+        double distance1 = reset / resetOneDay;
+        System.out.println(distance1 + " дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        double distance2 = reset / resetOneDayMax;
+        System.out.println(distance2 + " дней уйдет на похудение, если спортсмен будет терять каждый день по 500 грамм");
+        double distance3 = reset / ((resetOneDay + resetOneDayMax)/2);
+        String distance4 = String.format("%.2f",distance3);
+        System.out.println(distance4 + " дней в среднем уйдет на похудение, если спортсмен будет терять каждый день по 375 грамм");
 
+
+        System.out.println("   Задача 8");
+        int Mariya = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        double Mariya2 = Mariya * 1.1;
+        System.out.println("Зарплата Марии, после повышения на 10% будет составлять " + Mariya2 + " рублей в месяц");
+        double Denis2 = Denis * 1.1;
+        String Denis3 = String.format("%.1f",Denis2);
+        System.out.println("Зарплата Дениса, после повышения на 10% будет составлять " + Denis3 + " рублей в месяц");
+        double Kristina2 = Kristina * 1.1;
+        System.out.println("Зарплата Кристины, после повышения на 10% будет составлять " + Kristina2 + " рублей в месяц");
+        int totalMonth = 12;
+        int MariyaToYear = Mariya * totalMonth;
+        int DenisToYear = Denis * totalMonth;
+        int KristinaToYear = Kristina * totalMonth;
+
+        double MariyaToYearNow = Mariya2 * totalMonth;
+        double DenisToYearNow = Denis2 * totalMonth;
+        double KristinaToYearNow = Kristina2 * totalMonth;
+
+        double MariyaDifference = MariyaToYearNow - MariyaToYear;
+        double DenisDifference = DenisToYearNow - DenisToYear;
+        String DenisDifference2 = String.format("%.1f",DenisDifference);
+        double KristinaDifference = KristinaToYearNow - KristinaToYear;
+        System.out.println("Годовой доход Марии вырос на " + MariyaDifference + " рублей");
+        System.out.println("Годовой доход Дениса вырос на " + DenisDifference2+ " рублей");
+        System.out.println("Годовой доход Кристины вырос на  " + KristinaDifference + " рублей");
 
     }
 }
