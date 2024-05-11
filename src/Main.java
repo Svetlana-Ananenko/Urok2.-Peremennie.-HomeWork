@@ -8,11 +8,11 @@ public class Main {
         float nameFive = 0.1234567f;
         double nameSix = 0.1234567891011121;
         System.out.println("Значение переменной 'nameOne' с типом 'int' равно " + nameOne);
-        System.out.println("Значение переменной 'nameOne' с типом 'byte' равно " + nameTwo);
-        System.out.println("Значение переменной 'nameOne' с типом 'short' равно " + nameThree);
-        System.out.println("Значение переменной 'nameOne' с типом 'long' равно " + nameFour);
-        System.out.println("Значение переменной 'nameOne' с типом 'float' равно " + nameFive);
-        System.out.println("Значение переменной 'nameOne' с типом 'double' равно " + nameSix);
+        System.out.println("Значение переменной 'nameTwo' с типом 'byte' равно " + nameTwo);
+        System.out.println("Значение переменной 'nameThree' с типом 'short' равно " + nameThree);
+        System.out.println("Значение переменной 'nameFour' с типом 'long' равно " + nameFour);
+        System.out.println("Значение переменной 'nameFive' с типом 'float' равно " + nameFive);
+        System.out.println("Значение переменной 'nameSix' с типом 'double' равно " + nameSix);
 
         System.out.println("   Задача 2");
         float a = 27.12f;
@@ -37,7 +37,7 @@ public class Main {
         int students = classOne + classTwo + classThree;
         System.out.println("Всего учеников равно " + students);
 
-        byte totalSheets = 120;
+        int totalSheets = 480;
         System.out.println("Всего листов бумаги " + totalSheets);
 
         int sheetsInOneClass = totalSheets / 3;
